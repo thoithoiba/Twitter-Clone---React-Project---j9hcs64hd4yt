@@ -1,0 +1,91 @@
+.sidebar {
+    width: 280px;
+    color: #fff;
+    margin: 10px 0;
+  }
+  
+  .logo {
+    padding-left: 25px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .logo .MuiSvgIcon-root {
+    font-size: 35px;
+    color: rgb(180, 178, 178);
+  }
+  
+  .tweet {
+    background: #1a8cd8;
+    border-radius: 30px;
+    padding: 15px 6rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 15px 0;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s;
+  }
+  
+  .tweet:hover {
+    background: #1073b5;
+  }
+  .user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .user:hover {
+    background: rgb(20, 20, 20);
+  }
+  
+  .user__right {
+    padding-left: 3rem;
+  }
+  
+  .user__left .MuiAvatar-root {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .user__mid span {
+    color: #aeaeae;
+    font-size: 14px;
+    text-transform: lowercase;
+  }
+  
+  @media (max-width: 950px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  
+  .popup {
+    position: absolute;
+    top: -3rem;
+    left: 30%;
+    background: rgb(243, 242, 242);
+    color: #000;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    display: none;
+  }
+  
+  .popup_show {
+    display: block;
+  }
+  
+  
